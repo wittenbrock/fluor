@@ -419,4 +419,30 @@ h4 {
   color: #3b3d39;
   text-decoration: underline;
 }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 17px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  margin: 0;
+}
+
+header .menu-button,
+header .shopping-cart,
+header .search-icon {
+  width: 30px;
+  height: 30px;
+}
+
+header .fluor-logo {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*# sourceMappingURL=main.css.map */
