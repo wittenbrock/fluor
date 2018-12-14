@@ -1,10 +1,11 @@
 /* Hide text while making it readable for screen readers */
-.hide-text {
-  overflow: hidden;
-  padding: 0; /* 1 */
-  text-indent: 101%;
-  white-space: nowrap;
-}
+// .hide-text {
+//   overflow: hidden;
+//   padding: 0; /* 1 */
+//   text-indent: 101%;
+//   white-space: nowrap;
+//   margin: 0;
+// }
 
 /* Hide element while making it readable for screen readers */
 .visibly-hidden {

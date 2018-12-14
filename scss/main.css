@@ -381,14 +381,6 @@ template {
 }
 
 /* Hide text while making it readable for screen readers */
-.hide-text {
-  overflow: hidden;
-  padding: 0;
-  /* 1 */
-  text-indent: 101%;
-  white-space: nowrap;
-}
-
 /* Hide element while making it readable for screen readers */
 .visibly-hidden {
   border: 0;
@@ -444,5 +436,10 @@ header .fluor-logo {
   width: 160px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.splash-page {
+  background-color: #f0f0f0;
+  position: absolute;
 }
 /*# sourceMappingURL=main.css.map */
