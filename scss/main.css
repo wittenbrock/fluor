@@ -529,4 +529,28 @@ header .fluor-logo {
   margin-bottom: 40px;
   margin-left: 20px;
 }
+
+.collections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.collections img {
+  width: 350px;
+}
+
+.collections figcaption {
+  text-align: center;
+}
+
+.collections h3 {
+  color: #404752;
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.625rem;
+  word-wrap: break-word;
+}
 /*# sourceMappingURL=main.css.map */
