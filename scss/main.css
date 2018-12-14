@@ -1,6 +1,10 @@
 /* Background Colors */
 /* Font Colors */
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Lato");
+:root {
+  font-size: 16px;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -440,6 +444,89 @@ header .fluor-logo {
 
 .splash-page {
   background-color: #f0f0f0;
-  position: absolute;
+  margin: 30px;
+  height: 679.5px;
+}
+
+.splash-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.splash-typography {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.splash-title, .buy-now p {
+  text-transform: uppercase;
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.splash-title {
+  font-size: 4.0625rem;
+  font-weight: 700;
+  line-height: 4.125rem;
+  margin-bottom: 10px;
+}
+
+.splash-price {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #44f7b5;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.buy-now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 3px solid #3b3d39;
+  border-radius: 50%;
+  width: 74px;
+  height: 74px;
+  color: #3b3d39;
+}
+
+.buy-now:hover {
+  border-color: #5a5d52;
+  color: #5a5d52;
+}
+
+.buy-now p {
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 1.25rem;
+  color: inherit;
+}
+
+.watch {
+  width: 500px;
+  margin-top: auto;
+  margin-bottom: 40px;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=main.css.map */
