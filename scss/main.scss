@@ -3,11 +3,13 @@
 
 @import 'base/base';
 @import 'base/normalize';
+@import 'base/helpers';
+@import 'base/fonts.scss';
 
-@import 'header';
-@import 'splash-page';
-@import 'collections';
-@import 'catalog';
-@import 'news';
-@import 'navigation';
-@import 'footer'
+@import 'layout/header';
+@import 'layout/splash-page';
+@import 'layout/collections';
+@import 'layout/catalog';
+@import 'layout/news';
+@import 'layout/navigation';
+@import 'layout/footer'

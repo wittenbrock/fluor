@@ -3,11 +3,34 @@
 // -----------------------------------------------------------------------------
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: $white;
+  font-size: 100%;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
+
+body {
+  font-family: $header-font;
+  font-style: normal;
+  color: $dark-green-gray;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
