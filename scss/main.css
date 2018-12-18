@@ -953,4 +953,28 @@ nav a {
 #instagram-logo {
   margin-right: 0;
 }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 30px 15px 30px;
+  color: #aaa;
+  background-color: #2a2d32;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  color: inherit;
+  margin: 0;
+}
+
+footer div {
+  font-size: smaller;
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */

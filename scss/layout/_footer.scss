@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px 15px 30px;
+  color: $gray;
+  background-color: $blue-black;
+
+  p {
+    text-transform: uppercase;
+    font-family: $header-font;
+    color: inherit;
+    margin: 0;
+  }
+
+  div {
+    font-size: smaller;
+    margin: 0;
+  }
+}
