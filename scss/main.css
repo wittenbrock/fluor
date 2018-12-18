@@ -867,4 +867,90 @@ header .fluor-logo {
 .subscribe button:hover {
   background-color: #5a5d52;
 }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #edf2ef;
+  padding: 30px;
+  height: 150px;
+}
+
+nav h3 {
+  color: #44f7b5;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  padding: 0;
+  margin: 0;
+}
+
+nav p,
+nav a {
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #5a5d52;
+  text-transform: initial;
+}
+
+.col {
+  -ms-flex-preferred-size: 345px;
+      flex-basis: 345px;
+}
+
+.nav-list-two {
+  margin-left: 50px;
+}
+
+.nav-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.social-media-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-media-icons img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#instagram-logo {
+  margin-right: 0;
+}
 /*# sourceMappingURL=main.css.map */
