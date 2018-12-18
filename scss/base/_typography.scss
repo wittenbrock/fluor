@@ -6,6 +6,7 @@ p {
   font-style: normal;
   line-height: 1.75rem;
   text-transform: none;
+  margin-top: 0;
 }
 
 h1,
@@ -15,4 +16,5 @@ h4 {
   font-family: $header-font;
   color: $dark-green-gray;
   text-decoration: underline;
+  margin-top: 0;
 }

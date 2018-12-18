@@ -405,6 +405,7 @@ p {
   font-style: normal;
   line-height: 1.75rem;
   text-transform: none;
+  margin-top: 0;
 }
 
 h1,
@@ -414,6 +415,7 @@ h4 {
   font-family: "Fjalla One", Helvetica, sans-serif;
   color: #3b3d39;
   text-decoration: underline;
+  margin-top: 0;
 }
 
 header {
@@ -691,11 +693,178 @@ header .fluor-logo {
   margin: 0;
 }
 
+.news {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 30px 1fr;
+      grid-template-columns: 1fr 30px 1fr;
+      grid-template-areas: "header    header    header" "left      .         right" "subscribe subscribe subscribe";
+  margin: 30px;
+}
+
+.news h2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  font-size: 1.8125rem;
+  color: #44f7b5;
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+}
+
+.news h3 {
+  font-size: 2.5rem;
+  text-decoration: none;
+  margin: 0;
+  margin-bottom: 0.625rem;
+}
+
+.news hr {
+  display: block;
+  max-width: 70px;
+  height: 3px;
+  background: #3b3d39;
+  border: 0;
+  margin: 0;
+  margin-bottom: 1.875rem;
+}
+
 .rss-icon {
   position: relative;
   left: .25rem;
   display: inline-block;
-  width: 1rem;
+  width: 1.25rem;
   height: auto;
+}
+
+.left-article {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: left;
+}
+
+.right-article {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: right;
+}
+
+.subscribe {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: subscribe;
+}
+
+.article-subtitle {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #44f7b5;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.article-text {
+  margin-bottom: 20px;
+}
+
+.article-button {
+  padding: 10px;
+  border-color: #3b3d39;
+  border: 3px solid;
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3b3d39;
+  margin-bottom: 20px;
+}
+
+.article-button:hover {
+  color: #5a5d52;
+  border-color: #5a5d52;
+}
+
+.article-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.article-footer a {
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  font-size: 0.9375rem;
+}
+
+.article-footer li {
+  margin: 0 4px 0 4px;
+}
+
+.tag-icon {
+  width: 30px;
+}
+
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f0f0f0;
+  height: 314px;
+}
+
+.subscribe h3 {
+  font-size: 2.5rem;
+  text-transform: initial;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.subscribe p {
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.subscribe input {
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  padding: 16px 15px 15px;
+  border: none;
+  width: 410px;
+}
+
+.subscribe button {
+  padding: 14px 20px;
+  background-color: #3b3d39;
+  border: none;
+  color: white;
+  font-family: "Fjalla One", Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+
+.subscribe button:hover {
+  background-color: #5a5d52;
 }
 /*# sourceMappingURL=main.css.map */
