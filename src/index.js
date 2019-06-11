@@ -1,0 +1,29 @@
+import './scss/main.scss';
+
+// import images
+import './assets/black-belt.jpg';
+import './assets/black-shoe.jpg';
+import './assets/black-sweatshirt.jpg';
+import './assets/cap.jpg';
+import './assets/comments.svg';
+import './assets/computer-bag.jpg';
+import './assets/facebook.svg';
+import './assets/fluor-logo.png';
+import './assets/gloves.jpg';
+import './assets/grey-tshirt.jpg';
+import './assets/instagram.svg';
+import './assets/menu-button.svg';
+import './assets/metal-wallet.jpg';
+import './assets/nasa-tshirt.jpg';
+import './assets/pinterest.svg';
+import './assets/raincoat.jpg';
+import './assets/rss.svg';
+import './assets/scarf.jpg';
+import './assets/search.svg';
+import './assets/shopping-cart.svg';
+import './assets/socks.jpg';
+import './assets/sunglasses.jpg';
+import './assets/tag.svg';
+import './assets/twitter.svg';
+import './assets/watch.jpg';
+import './assets/white-shirt.jpg';

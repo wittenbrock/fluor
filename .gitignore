@@ -14,4 +14,19 @@ Thumbs.db
 *.css.map
 *.sass.map
 *.scss.map
-main.css
+
+# Node generated logs/files #
+######################
+logs
+*.log
+npm-debug.log*
+node_modules/
+
+#Webpack Generated Files#
+/build
+
+# Adobe XD Mockup #
+portfolio.xd
+
+# Netlify
+.netlify
