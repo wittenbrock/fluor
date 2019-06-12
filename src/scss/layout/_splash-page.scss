@@ -1,7 +1,7 @@
 .splash-page {
   background-color: $light-gray;
-  height: 679.5px;
-  margin: 30px;
+  height: rem(679.5px);
+  margin: rem(30px);
 }
 
 .splash-content {
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: rem(40px);
 }
 
 %splash-heading {
@@ -26,29 +26,29 @@
 
 .splash-title {
   @extend %splash-heading;
-  font-size: 4.0625rem;
+  font-size: rem(65px);
   font-weight: 700;
-  line-height: 4.125rem;
-  margin-bottom: 10px;
+  line-height: rem(66px);
+  margin-bottom: rem(10px);
 }
 
 .splash-price {
   color: $turquoise;
-  font-size: 2.5rem;
+  font-size: rem(40px);
   font-weight: 400;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
 }
 
 .buy-now {
   align-items: center;
-  border: 3px solid $dark-green-gray;
+  border: rem(3px) solid $dark-green-gray;
   border-radius: 50%;
   color: $dark-green-gray;
   display: flex;
-  height: 74px;
+  height: rem(74px);
   justify-content: center;
-  width: 74px;
+  width: rem(74px);
 
   &:hover {
     border-color: $olive-green;
@@ -59,14 +59,14 @@
 .buy-now-text {
   @extend %splash-heading;
   color: inherit;
-  font-size: 1.125rem;
-  line-height: 1.25rem;
+  font-size: rem(18px);
+  line-height: rem(20px);
   text-align: center;
 }
 
 .watch {
-  margin-bottom: 40px;
-  margin-left: 20px;
+  margin-bottom: rem(40px);
+  margin-left: rem(20px);
   margin-top: auto;
-  width: 500px;
+  width: rem(500px);
 }

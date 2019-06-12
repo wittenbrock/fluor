@@ -2,7 +2,7 @@
   display: flex;
   left: 0;
   margin: 0;
-  padding: 17px 30px;
+  padding: rem(17px) rem(30px);
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,12 +10,12 @@
 }
 
 .page-header-link {
-  height: 30px;
-  width: 30px;
+  height: rem(30px);
+  width: rem(30px);
 }
 
 .fluor-logo {
   margin-left: auto;
   margin-right: auto;
-  width: 160px;
+  width: rem(160px);
 }

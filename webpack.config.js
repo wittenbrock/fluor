@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const baseLoaders = ['css-loader', 'sass-loader'];
+const baseLoaders = ['css-loader', 'postcss-loader', 'sass-loader'];
 const mode = process.env.NODE_ENV || 'production';
 
 module.exports = {

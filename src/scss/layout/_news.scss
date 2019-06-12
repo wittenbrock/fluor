@@ -4,14 +4,14 @@
     'header    header    header'
     'left      .         right'
     'subscribe subscribe subscribe';
-  grid-template-columns: 1fr 30px 1fr;
-  margin: 30px;
+  grid-template-columns: 1fr rem(30px) 1fr;
+  margin: rem(30px);
 }
 
 .article-title {
-  font-size: 2.5rem;
+  font-size: rem(40px);
   margin: 0;
-  margin-bottom: 0.625rem;
+  margin-bottom: rem(10px);
   text-decoration: none;
 }
 
@@ -19,18 +19,18 @@
   background: $dark-green-gray;
   border: 0;
   display: block;
-  height: 3px;
+  height: rem(3px);
   margin: 0;
-  margin-bottom: 1.875rem;
-  max-width: 70px;
+  margin-bottom: rem(30px);
+  max-width: rem(70px);
 }
 
 .rss-icon {
   display: inline-block;
   height: auto;
-  left: 0.25rem;
+  left: rem(4px);
   position: relative;
-  width: 1.25rem;
+  width: rem(20px);
 }
 
 .left-article {
@@ -47,14 +47,14 @@
 
 .article-subtitle {
   color: $turquoise;
-  font-size: 1.125rem;
-  line-height: 1.375rem;
-  margin-bottom: 30px;
+  font-size: rem(18px);
+  line-height: rem(22px);
+  margin-bottom: rem(30px);
   margin-top: 0;
 }
 
 .article-text {
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
 }
 
 .article-button {
@@ -62,10 +62,10 @@
   border-color: $dark-green-gray;
   color: $dark-green-gray;
   font-family: $header-font;
-  font-size: 18px;
+  font-size: rem(18px);
   font-weight: 700;
-  margin-bottom: 20px;
-  padding: 10px;
+  margin-bottom: rem(20px);
+  padding: rem(10px);
   text-transform: uppercase;
 
   &:hover {
@@ -79,22 +79,22 @@
   display: flex;
   justify-content: flex-start;
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: rem(30px);
   margin-top: 0;
   padding: 0;
 }
 
 .article-footer-item {
-  margin: 0 4px;
+  margin: 0 rem(4px);
 }
 
 .article-footer-link {
   font-family: $header-font;
-  font-size: 0.9375rem;
+  font-size: rem(15px);
 }
 
 .tag-icon {
-  width: 30px;
+  width: rem(30px);
 }
 
 .subscribe {
@@ -102,29 +102,29 @@
   background-color: $light-gray;
   display: flex;
   flex-direction: column;
-  height: 314px;
+  height: rem(314px);
   justify-content: center;
 }
 
 .subscribe-title {
-  font-size: 2.5rem;
+  font-size: rem(40px);
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: rem(10px);
   text-decoration: none;
   text-transform: initial;
 }
 
 .subscribe-subtitle {
   font-family: $header-font;
-  font-size: 1.25rem;
+  font-size: rem(20px);
   margin-bottom: 30px;
 }
 
 .subscribe-input {
   border: 0;
   font-family: $header-font;
-  padding: 16px 15px 15px;
-  width: 410px;
+  padding: rem(16px) rem(15px) rem(15px);
+  width: rem(410px);
 }
 
 .subscribe-button {
@@ -132,9 +132,9 @@
   border: 0;
   color: $white;
   font-family: $header-font;
-  font-size: 1.125rem;
+  font-size: rem(18px);
   font-weight: 700;
-  padding: 14px 20px;
+  padding: rem(14px) rem(20px);
   text-transform: uppercase;
 
   &:hover {

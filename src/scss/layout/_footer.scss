@@ -3,7 +3,7 @@ footer {
   color: $gray;
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: rem(15px) rem(30px);
 
   p {
     color: inherit;

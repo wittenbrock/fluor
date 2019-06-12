@@ -4,8 +4,8 @@
   "description": "![fluor](https://user-images.githubusercontent.com/41911653/58663852-37173b80-82e2-11e9-8ebd-c9da1ac2332f.png)",
   "main": "index.js",
   "scripts": {
-    "lint":"stylelint src/scss/**/*.scss",
-    "lint:fix":"stylelint src/scss/**/*.scss --fix",
+    "lint": "stylelint src/scss/**/*.scss",
+    "lint:fix": "stylelint src/scss/**/*.scss --fix",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "npm run dev; webpack-dev-server --open --mode development"
@@ -28,6 +28,8 @@
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.7.0",
     "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-rem": "^1.1.4",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "stylelint": "^10.1.0",

@@ -1,11 +1,11 @@
 .collections {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
 }
 
 .collections-image {
-  width: 350px;
+  width: rem(350px);
 }
 
 .collections-figcaption {
@@ -14,7 +14,7 @@
 
 .collections-subtitle {
   color: $dark-gray;
-  font-size: 1.625rem;
+  font-size: rem(26px);
   font-weight: 300;
   margin: 0;
   word-wrap: break-word;

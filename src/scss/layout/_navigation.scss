@@ -1,26 +1,26 @@
 .navigation {
   background-color: $light-green;
   display: flex;
-  height: 150px;
+  height: rem(150px);
   justify-content: space-between;
-  padding: 30px;
+  padding: rem(30px);
 
   p,
   a {
     color: $olive-green;
     font-family: $header-font;
-    font-size: 0.9375rem;
+    font-size: rem(15px);
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: rem(24px);
     text-transform: initial;
   }
 }
 
 .column-title {
   color: $turquoise;
-  font-size: 0.9375rem;
+  font-size: rem(15px);
   font-weight: 400;
-  margin-bottom: 15px;
+  margin-bottom: rem(15px);
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .nav-list-two {
-  margin-left: 50px;
+  margin-left: rem(50px);
 }
 
 .nav-list-item {
@@ -44,7 +44,7 @@
 }
 
 .col {
-  flex-basis: 345px;
+  flex-basis: rem(345px);
 }
 
 .social-media {
@@ -59,9 +59,9 @@
 
 .social-media-img {
   height: auto;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 20px;
+  margin-left: rem(10px);
+  margin-right: rem(10px);
+  width: rem(20px);
 
   &:last-of-type {
     margin-right: 0;
