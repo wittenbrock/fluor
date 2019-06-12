@@ -1,10 +1,12 @@
+@import 'vendors/normalize';
+
 @import 'abstracts/variables';
 
 @import 'base/base';
-@import 'base/fonts.scss';
+@import 'base/fonts';
 @import 'base/helpers';
 @import 'base/normalize';
-@import 'base/typography.scss';
+@import 'base/typography';
 
 @import 'layout/catalog';
 @import 'layout/collections';
