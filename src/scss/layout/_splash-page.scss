@@ -54,15 +54,14 @@
     border-color: $olive-green;
     color: $olive-green;
   }
+}
 
-  p {
-    @extend %splash-heading;
-    color: inherit;
-  
-    font-size: 1.125rem;
-    line-height: 1.25rem;
-    text-align: center;
-  }
+.buy-now-text {
+  @extend %splash-heading;
+  color: inherit;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  text-align: center;
 }
 
 .watch {

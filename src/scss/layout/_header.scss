@@ -1,4 +1,4 @@
-header {
+.page-header {
   display: flex;
   left: 0;
   margin: 0;
@@ -7,17 +7,15 @@ header {
   top: 0;
   width: 100%;
   z-index: 100;
+}
 
-  .menu-button,
-  .shopping-cart,
-  .search-icon {
-    height: 30px;
-    width: 30px;
-  }
+.page-header-link {
+  height: 30px;
+  width: 30px;
+}
 
-  .fluor-logo {
-    margin-left: auto;
-    margin-right: auto;
-    width: 160px;
-  }
+.fluor-logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
 }

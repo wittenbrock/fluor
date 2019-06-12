@@ -2,21 +2,20 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
-
-  img {
-    width: 350px;
-  }
-
-  figcaption {
-    text-align: center;
-  }
-
-  h3 {
-    color: $dark-gray;
-    font-size: 1.625rem;
-    font-weight: 300;
-    margin: 0;
-    word-wrap: break-word;
-  }
 }
 
+.collections-image {
+  width: 350px;
+}
+
+.collections-figcaption {
+  text-align: center;
+}
+
+.collections-subtitle {
+  color: $dark-gray;
+  font-size: 1.625rem;
+  font-weight: 300;
+  margin: 0;
+  word-wrap: break-word;
+}
