@@ -1,11 +1,20 @@
 .collections {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: rem(50px);
+  @include for-tablet-up {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .collections-image {
-  width: rem(350px);
+  margin: auto;
+  width: rem(200px);
+  @include for-tablet-up {
+    width: rem(350px);
+  }
 }
 
 .collections-figcaption {
