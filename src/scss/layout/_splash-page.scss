@@ -1,13 +1,13 @@
 .splash-page {
   background-color: $light-gray;
-  margin: 30px;
   height: 679.5px;
+  margin: 30px;
 }
 
 .splash-content {
   display: flex;
-  justify-content: center;
   height: 100%;
+  justify-content: center;
 }
 
 .splash-typography {
@@ -18,10 +18,10 @@
 }
 
 %splash-heading {
-  text-transform: uppercase;
   font-family: $header-font;
   font-weight: 700;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .splash-title {
@@ -33,22 +33,22 @@
 }
 
 .splash-price {
+  color: $turquoise;
   font-size: 2.5rem;
   font-weight: 400;
-  color: $turquoise;
   margin: 0;
   margin-bottom: 50px;
 }
 
 .buy-now {
-  display: flex;
   align-items: center;
-  justify-content: center;
   border: 3px solid $dark-green-gray;
   border-radius: 50%;
-  width: 74px;
-  height: 74px;
   color: $dark-green-gray;
+  display: flex;
+  height: 74px;
+  justify-content: center;
+  width: 74px;
 
   &:hover {
     border-color: $olive-green;
@@ -57,17 +57,17 @@
 
   p {
     @extend %splash-heading;
+    color: inherit;
   
     font-size: 1.125rem;
-    text-align: center;
     line-height: 1.25rem;
-    color: inherit;
+    text-align: center;
   }
 }
 
 .watch {
-  width: 500px;
-  margin-top: auto;
   margin-bottom: 40px;
   margin-left: 20px;
+  margin-top: auto;
+  width: 500px;
 }

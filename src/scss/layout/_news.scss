@@ -1,43 +1,43 @@
 .news {
   display: grid;
+  grid-template-areas: 'header    header    header'
+    'left      .         right'
+    'subscribe subscribe subscribe';
   grid-template-columns: 1fr 30px 1fr;
-  grid-template-areas: "header    header    header"
-                       "left      .         right"
-                       "subscribe subscribe subscribe";
   margin: 30px;
 
   h2 {
-    grid-area: header;
-    font-size: 1.8125rem;
     color: $turquoise;
-    margin-top: 0;
+    font-size: 1.8125rem;
+    grid-area: header;
     margin-bottom: 1.875rem;
+    margin-top: 0;
   }
 
   h3 {
     font-size: 2.5rem;
-    text-decoration: none;
     margin: 0;
     margin-bottom: 0.625rem;
+    text-decoration: none;
   }
 
   hr {
-    display: block;
-    max-width: 70px;
-    height: 3px;
     background: $dark-green-gray;
     border: 0;
+    display: block;
+    height: 3px;
     margin: 0;
     margin-bottom: 1.875rem;
+    max-width: 70px;
   }
 }
 
 .rss-icon {
-  position: relative;
-  left: .25rem;
   display: inline-block;
-  width: 1.25rem;
   height: auto;
+  left: 0.25rem;
+  position: relative;
+  width: 1.25rem;
 }
 
 .left-article {
@@ -53,11 +53,11 @@
 }
 
 .article-subtitle {
+  color: $turquoise;
   font-size: 1.125rem;
   line-height: 1.375rem;
-  color: $turquoise;
-  margin-top: 0;
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .article-text {
@@ -65,30 +65,30 @@
 }
 
 .article-button {
-  padding: 10px;
-  border-color: $dark-green-gray;
   border: 3px solid;
+  border-color: $dark-green-gray;
+  color: $dark-green-gray;
   font-family: $header-font;
-  text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  color: $dark-green-gray;
   margin-bottom: 20px;
+  padding: 10px;
+  text-transform: uppercase;
 
   &:hover {
-    color: $olive-green;
     border-color: $olive-green;
+    color: $olive-green;
   }
 }
 
 .article-footer {
+  align-items: center;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   list-style: none;
-  padding: 0;
-  margin-top: 0;
   margin-bottom: 30px;
+  margin-top: 0;
+  padding: 0;
 
   a {
     font-family: $header-font;
@@ -96,7 +96,7 @@
   }
 
   li {
-    margin: 0 4px 0 4px;
+    margin: 0 4px;
   }
 }
 
@@ -105,18 +105,18 @@
 }
 
 .subscribe {
+  align-items: center;
+  background-color: $light-gray;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: $light-gray;
   height: 314px;
+  justify-content: center;
 
   h3 {
     font-size: 2.5rem;
-    text-transform: initial;
-    margin-bottom: 10px;
     font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: initial;
   }
 
   p {
@@ -126,21 +126,21 @@
   }
 
   input {
+    border: 0;
     font-family: $header-font;
     padding: 16px 15px 15px;
-    border: none;
     width: 410px;
   }
 
   button {
-    padding: 14px 20px;
     background-color: $dark-green-gray;
-    border: none;
+    border: 0;
     color: $white;
     font-family: $header-font;
-    font-weight: 700;
-    text-transform: uppercase;
     font-size: 1.125rem;
+    font-weight: 700;
+    padding: 14px 20px;
+    text-transform: uppercase;
 
     &:hover {
       background-color: $olive-green;

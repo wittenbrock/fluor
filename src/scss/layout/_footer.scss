@@ -1,15 +1,15 @@
 footer {
+  background-color: $blue-black;
+  color: $gray;
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px 15px 30px;
-  color: $gray;
-  background-color: $blue-black;
+  padding: 15px 30px;
 
   p {
-    text-transform: uppercase;
-    font-family: $header-font;
     color: inherit;
+    font-family: $header-font;
     margin: 0;
+    text-transform: uppercase;
   }
 
   div {

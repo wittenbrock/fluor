@@ -4,6 +4,8 @@
   "description": "![fluor](https://user-images.githubusercontent.com/41911653/58663852-37173b80-82e2-11e9-8ebd-c9da1ac2332f.png)",
   "main": "index.js",
   "scripts": {
+    "lint":"stylelint src/scss/**/*.scss",
+    "lint:fix":"stylelint src/scss/**/*.scss --fix",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "npm run dev; webpack-dev-server --open --mode development"
