@@ -1,0 +1,30 @@
+.collections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: rem(50px);
+  @include for-tablet-up {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.collections-image {
+  margin: auto;
+  width: rem(150px);
+  @include for-tablet-up {
+    width: rem(350px);
+  }
+}
+
+.collections-figcaption {
+  text-align: center;
+}
+
+.collections-subtitle {
+  color: $dark-gray;
+  font-size: rem(26px);
+  font-weight: 300;
+  margin: 0;
+  word-wrap: break-word;
+}

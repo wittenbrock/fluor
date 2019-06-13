@@ -1,0 +1,129 @@
+.catalog {
+  margin: 0 rem(15px) rem(15px);
+  @include for-tablet-up {
+    margin: 0 rem(30px) rem(30px);
+  }
+
+  sup {
+    color: $turquoise;
+    font-size: rem(10px);
+    margin-left: rem(4px);
+  }
+
+  s {
+    font-size: rem(18px);
+  }
+}
+
+// styles the Catalogue and News h2 titles
+.section-title {
+  color: $turquoise;
+  font-family: $body-font;
+  font-size: rem(29px);
+  margin-bottom: rem(30px);
+  margin-top: 0;
+}
+
+.catalog-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  @include for-tablet-up {
+    justify-content: flex-start;
+  }
+}
+
+.catalog-category {
+  color: $dark-green-gray;
+  font-family: $header-font;
+  font-size: rem(15px);
+  margin-left: rem(20px);
+  padding-bottom: rem(2px);
+  padding-left: 0;
+
+  &:nth-of-type(1) {
+    margin-left: 0;
+  }
+}
+
+.highlight:hover {
+  border-bottom: $turquoise 2px solid;
+}
+
+.grid-container {
+  display: grid;
+  gap: rem(10px);
+  grid-template-columns: repeat(2, 1fr);
+  @include for-tablet-up {
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+}
+
+.grid-item {
+  margin: 0;
+  position: relative;
+}
+
+.catalog-overlay {
+  background: linear-gradient(to top, transparentize($turquoise, 0.4), transparent);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: 0.5s ease;
+  width: 100%;
+}
+
+.catalog-overlay:hover {
+  opacity: 1;
+}
+
+.item-price {
+  color: $white;
+  font-size: rem(22px);
+  margin: 0;
+}
+
+.item-name {
+  color: $dark-green-gray;
+  font-family: $header-font;
+  font-size: rem(22px);
+  margin: 0;
+  margin-bottom: 4%;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.sale-icon {
+  align-items: center;
+  background-color: $turquoise;
+  border-radius: 50%;
+  display: flex;
+  height: rem(45px);
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  right: rem(10px);
+  top: rem(10px);
+  width: rem(45px);
+  z-index: 2;
+}
+
+.sale-icon-text {
+  color: $white;
+  font-size: rem(13px);
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}

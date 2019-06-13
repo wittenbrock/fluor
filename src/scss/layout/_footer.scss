@@ -1,0 +1,23 @@
+footer {
+  background-color: $blue-black;
+  color: $gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: rem(15px) rem(30px);
+  @include for-tablet-up {
+    flex-direction: row;
+  }
+
+  p {
+    color: inherit;
+    font-family: $header-font;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  div {
+    font-size: smaller;
+    margin: 0;
+  }
+}
