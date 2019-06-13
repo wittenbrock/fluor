@@ -2,7 +2,7 @@
 
 # [Fluor](https://wittenbrock.github.io/fluor/)
 
-A static e-commerce site for a fictional men's apparel store. This project is currently being on hosted on [Github Pages](https://wittenbrock.github.io/fluor/).
+A static homepage layout for a fictional men's apparel store. This project is currently being on hosted on [Netlify](https://wittenbrock.github.io/fluor/).
 
 ## Installation
 
@@ -17,6 +17,7 @@ git clone https://github.com/wittenbrock/fluor.git
 
 This project:
 
+* was built with **Webpack 4**.
 * uses **semantic HTML** markup.
 * is styled with **SCSS**.
-* [is hosted here on **Github Pages**](https://wittenbrock.github.io/fluor/).
+* [is hosted here on **Netlify**](https://wittenbrock.github.io/fluor/).
