@@ -2,8 +2,12 @@ footer {
   background-color: $blue-black;
   color: $gray;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: rem(15px) rem(30px);
+  @include for-tablet-up {
+    flex-direction: row;
+  }
 
   p {
     color: inherit;

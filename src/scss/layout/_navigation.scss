@@ -1,9 +1,21 @@
 .navigation {
   background-color: $light-green;
-  display: flex;
-  height: rem(150px);
-  justify-content: space-between;
-  padding: rem(30px);
+  padding-left: rem(45px);
+  padding-top: rem(60px);
+  padding-bottom: rem(7px);
+  @include for-tablet-up {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 60px;
+  }
+  @include for-desktop-up {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: rem(30px);
+    min-height: rem(150px);
+  }
 
   p,
   a {
@@ -18,7 +30,7 @@
 
 .column-title {
   color: $turquoise;
-  font-size: rem(15px);
+  font-size: rem(18px);
   font-weight: 400;
   margin-bottom: rem(15px);
   text-decoration: none;
@@ -32,6 +44,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: rem(85px);
 }
 
 .nav-list-two {
@@ -39,18 +52,24 @@
 }
 
 .nav-list-item {
-  margin: 0;
+  margin-bottom: rem(8px);
   padding: 0;
 }
 
 .col {
-  flex-basis: rem(345px);
+  margin-bottom: rem(45px);
+  @include for-desktop-up {
+    margin: 0;
+    flex-basis: rem(345px);
+  }
 }
 
 .social-media {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
+  @include for-desktop-up {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .social-media-icons {

@@ -1,5 +1,8 @@
 .catalog {
-  margin: 0 rem(30px) rem(30px);
+  margin: 0 rem(15px) rem(15px);
+  @include for-tablet-up {
+    margin: 0 rem(30px) rem(30px);
+  }
 
   sup {
     color: $turquoise;
@@ -23,9 +26,14 @@
 
 .catalog-filter-bar {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style-type: none;
   margin-top: 0;
   padding: 0;
+  @include for-tablet-up {
+    justify-content: flex-start;
+  }
 }
 
 .catalog-category {
@@ -48,7 +56,11 @@
 .grid-container {
   display: grid;
   gap: rem(10px);
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  @include for-tablet-up {
+    grid-template-columns: repeat(4, 1fr);
+
+  }
 }
 
 .grid-item {

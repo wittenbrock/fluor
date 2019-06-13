@@ -1,12 +1,13 @@
 .page-header {
   display: flex;
-  left: 0;
   margin: 0;
   padding: rem(17px) rem(30px);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
+  max-width: rem(1500px);
+  margin: auto;
 }
 
 .page-header-link {
@@ -15,7 +16,22 @@
 }
 
 .fluor-logo {
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
   width: rem(160px);
+}
+
+.search-icon {
+  margin-left: auto;
+}
+
+.shopping-cart-icon {
+  display: none;
+  @include for-tablet-up {
+    display: block;
+  }
 }

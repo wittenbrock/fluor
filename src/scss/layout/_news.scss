@@ -1,11 +1,19 @@
 .news {
   display: grid;
   grid-template-areas:
-    'header    header    header'
-    'left      .         right'
-    'subscribe subscribe subscribe';
-  grid-template-columns: 1fr rem(30px) 1fr;
-  margin: rem(30px);
+    'header'
+    'left'
+    'right'
+    'subscribe';
+  margin: rem(15px);
+  @include for-desktop-up {
+    grid-template-areas:
+      'header    header    header'
+      'left      .         right'
+      'subscribe subscribe subscribe';
+    grid-template-columns: 1fr rem(30px) 1fr;
+    margin: rem(30px);
+  }
 }
 
 .article-title {
@@ -105,6 +113,7 @@
   flex-direction: column;
   height: rem(314px);
   justify-content: center;
+  padding: rem(15px);
 }
 
 .subscribe-title {
@@ -121,11 +130,23 @@
   margin-bottom: 30px;
 }
 
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  @include for-tablet-up {
+    flex-direction: row;
+  }
+}
+
 .subscribe-input {
   border: 0;
   font-family: $header-font;
   padding: rem(16px) rem(15px) rem(15px);
-  width: rem(410px);
+  @include for-tablet-up {
+    width: rem(410px);
+  }
 }
 
 .subscribe-button {
