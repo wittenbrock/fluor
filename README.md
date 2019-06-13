@@ -2,7 +2,7 @@
 
 # [Fluor](https://quirky-jackson-d12c40.netlify.com/)
 
-A static homepage layout for a fictional men's apparel store. This project is currently being on hosted on [Netlify](https://wittenbrock.github.io/fluor/).
+A static homepage layout for a fictional men's apparel store. This project is currently being on hosted on [Netlify](https://quirky-jackson-d12c40.netlify.com/).
 
 ## Installation
 
